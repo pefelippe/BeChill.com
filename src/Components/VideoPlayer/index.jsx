@@ -9,7 +9,6 @@ import { data } from "../../data";
 import "./styles.css";
 import { Dialog, DialogContent, DialogContentText } from "@mui/material";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 
 const DEFAULT_RADIO = "https://www.youtube.com/watch?v=5qap5aO4i9A";
