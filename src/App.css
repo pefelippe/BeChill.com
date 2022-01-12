@@ -8,21 +8,3 @@
   width: 100vw;
   height: 100vh;
 }
-
-.container {
-  display: grid;
-  grid-template-rows: 100vh;
-  grid-auto-rows: 100%;
-  background-color: #000;
-}
-
-.footer {
-  font-size: 1.5em;
-  position: fixed;
-  background-color: purple;
-  display: flex;
-  bottom: 0px;
-  justify-content: space-between;
-  align-items: center;
-}
-
