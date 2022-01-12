@@ -1,0 +1,16 @@
+.video-player-wrapper {
+  /* pointer-events: none; */
+  margin-top: -100px;
+  width: "100%";
+  height: "100%";
+}
+
+.videoplayer {
+  pointer-events: none;
+}
+.player-btns {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}

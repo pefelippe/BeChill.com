@@ -9,31 +9,20 @@
   height: 100vh;
 }
 
-.lateral {
-  width: 12%;
-  height: 100%;
-  position: absolute;
-  color: white;
+.container {
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-auto-rows: 100%;
+  background-color: #000;
+}
+
+.footer {
+  font-size: 1.5em;
+  position: fixed;
+  background-color: purple;
   display: flex;
-  flex-direction: column;
+  bottom: 0px;
+  justify-content: space-between;
   align-items: center;
-  text-shadow: 1px 1px 5px black;
-  text-transform: capitalize;
-  background-color: rgba(12, 12, 12, 0.4);
 }
 
-.logo {
-  font-size: 2.5em;
-  font-style: bold;
-  padding-bottom: 50%;
-  padding-top: 50px;
-}
-
-.radio-options {
-  font-size: 1.2em;
-}
-
-.video-player {
-  width: 100%;
-  height: 100%;
-}
